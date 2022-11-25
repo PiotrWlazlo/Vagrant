@@ -6,4 +6,4 @@ roles:
         - name: christiangda.awscli_configure
           version: 0.0.5
         - name: diodonfrost.terraform
-          vesrion: 1.6.1
+          version: 1.6.1
