@@ -31,6 +31,7 @@ Vagrant.configure("2") do |config|
       git_repository: "https://github.com/PiotrWlazlo/infrastructure.git"
       git_branch: "main"
     }
+  end
 
   if VAGRANT_COMMAND == "ssh"
     config.ssh.username = 'panda'
